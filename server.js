@@ -11,5 +11,5 @@ routes(server);
 
 const port = 3030;
 server.listen(port, () => {
-  console.log('Server: ', port);
+  console.info('Server: ', port);
 });
